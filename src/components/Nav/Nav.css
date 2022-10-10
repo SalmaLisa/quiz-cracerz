@@ -1,0 +1,22 @@
+.top-header a:hover{
+  color: gold;
+}
+.navbar{
+  box-shadow: 0 1px 10px #d346b0;
+}
+.logo img{
+  width: 75px;
+}
+nav a{
+  margin-right: 20px;
+  font-weight: bold;
+  color: #0F172A;
+  font-size: 17px;
+}
+nav a:hover{
+  color:#A30B7E
+}
+.active{
+  color:#A30B7E;
+  text-shadow: 0 1px 16px #A30B7E;
+}
