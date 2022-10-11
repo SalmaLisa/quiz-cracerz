@@ -7,8 +7,8 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const Banner = () => {
   return (
-    <div className="banner flex justify-between items-center pt-12">
-      <div className=" ml-16">
+    <div className="banner md:flex justify-between items-center pt-12">
+      <div className=" md:ml-16 mx-6 md:mr-0">
         <h1 className="text-5xl font-bold mb-6">First Think , Then Act . </h1>
         <i className="text-blue-500 block">
           “Faith is more than getting a theological quiz right. Faith is to
@@ -22,7 +22,7 @@ const Banner = () => {
           </button>
         </Link>
       </div>
-      <div className="animation-image">
+      <div className="animation-image mt-5 md:mt-0">
         <Lottie animationData={quizAnimation} />
       </div>
     </div>
