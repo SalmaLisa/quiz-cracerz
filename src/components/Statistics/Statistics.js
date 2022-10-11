@@ -6,7 +6,7 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip
+  Tooltip,
 } from "recharts";
 
 const Statistics = () => {
@@ -26,7 +26,10 @@ const Statistics = () => {
         <Tooltip />
         <Area type="monotone" dataKey="total" stroke="#4A47D3" />
       </AreaChart>
-      <h1 className="text-center font-bold text-xl text-blue-800 mt-5"> Total Questions Chart</h1>
+      <h1 className="text-center font-bold text-xl text-blue-800 mt-5">
+        {" "}
+        Total Questions Chart
+      </h1>
     </div>
   );
 };

@@ -26,3 +26,16 @@ nav a:hover{
   color:#4A47D3;
   text-shadow: 0 1px 16px #4A47D3;
 }
+
+@media only screen and (max-width:768px){
+  .open{
+    display: none;
+  }
+  .close{
+    display: block;
+  }
+  nav a{
+    display: block;
+    margin: 10px;
+  }
+}

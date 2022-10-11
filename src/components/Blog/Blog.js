@@ -30,8 +30,9 @@ const Blog = () => {
           <br /> The React Context API is a way for a React app to effectively
           produce global variables that can be passed around. This is the
           alternative to "prop drilling" or moving props from grandparent to
-          child to parent, and so on. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
-
+          child to parent, and so on. Context provides a way to share values
+          like these between components without having to explicitly pass a prop
+          through every level of the tree.
         </p>
         <h1 className="text-2xl font-bold text-slate-900 mt-5">
           3. What is useRef hook ? What is it used for ?
