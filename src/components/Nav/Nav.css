@@ -1,11 +1,17 @@
 .top-header a:hover{
-  color: gold;
+  color:  #0F172A;
 }
 .navbar{
-  box-shadow: 0 1px 10px #d346b0;
+  box-shadow: 0 .5px 20px #375dda6e;
 }
-.logo img{
+.logo-container img{
   width: 75px;
+}
+.logo{
+  width: 45px;
+}
+.logo-title{
+  color: #4A47D3;
 }
 nav a{
   margin-right: 20px;
@@ -14,9 +20,9 @@ nav a{
   font-size: 17px;
 }
 nav a:hover{
-  color:#A30B7E
+  color:#4A47D3
 }
 .active{
-  color:#A30B7E;
-  text-shadow: 0 1px 16px #A30B7E;
+  color:#4A47D3;
+  text-shadow: 0 1px 16px #4A47D3;
 }
