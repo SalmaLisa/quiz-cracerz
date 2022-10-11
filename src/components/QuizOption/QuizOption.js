@@ -1,16 +1,25 @@
 import React from "react";
+import './QuizOption.css'
 
-const QuizOption = ({ quizOptions, question }) => {
-  console.log(quizOptions);
+const QuizOption = ({ quizOptions, question, correctAnswer }) => {
+  console.log(quizOptions,correctAnswer);
+  const checkAnswer = (quizOptions, correctAnswer) => {
+    if (quizOptions === correctAnswer) {
+      console.log('right')
+    }
+    else {
+      console.log('wrong')
+    }
+  }
   return (
     <div className="flex">
       <input 
+        onClick={()=>checkAnswer(quizOptions,correctAnswer)}
         type="radio"
-        id="quizOptions"
         name={question}
         value="quizOptions"
       />
-      <label className="text-xl font-normal ml-3" for="quizOptions">{quizOptions}</label>
+      <label className="text-xl font-normal ml-3" >{quizOptions}</label>
       <br />
     </div>
   );
