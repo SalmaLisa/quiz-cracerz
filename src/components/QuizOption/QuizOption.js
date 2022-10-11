@@ -4,9 +4,10 @@ import './QuizOption.css'
 
 const QuizOption = ({ quizOptions, question, correctAnswer }) => {
   const checkAnswer = useContext(AnswerCheckerContext);
+  
   return (
     <div className="flex">
-      <input 
+      <input
         onClick={()=>checkAnswer(quizOptions,correctAnswer)}
         type="radio"
         name={question}
