@@ -13,26 +13,28 @@ const QuizPage = () => {
 
   const checkAnswer = (quizOptions, correctAnswer) => {
     if (quizOptions === correctAnswer) {
-      Swal.fire({
-        icon: "success",
-        title: "Wow ! Right Answer",
-      });
+     
       const alreadyAnswered = rightAnswers.find(
         (rightAnswer) => rightAnswer === quizOptions
       );
       if (!alreadyAnswered) {
+        Swal.fire({
+          icon: "success",
+          title: "Wow ! Right Answer",
+        });
         const rightAns = [...rightAnswers, quizOptions];
         setRightAnswers(rightAns);
       }
     } else {
-      Swal.fire({
-        icon: "error",
-        title: "Oops...Wrong Answer!",
-      });
+     
       const alreadyAnswered = wrongAnswers.find(
         (rightAnswer) => rightAnswer === quizOptions
       );
       if (!alreadyAnswered) {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...Wrong Answer!",
+        });
         const wrongAns = [...wrongAnswers, quizOptions];
         setWrongAnswers(wrongAns);
       }

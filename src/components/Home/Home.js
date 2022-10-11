@@ -13,7 +13,7 @@ const Home = () => {
       <h1 className="text-center font-bold text-4xl text-slate-900 mt-24 mb-16">
         Select Your Topic
       </h1>
-      <div className="md:px-20 my-10 grid md:grid-cols-2 lg:grid-cols-4 gap-10 mx-6 md:mx-0">
+      <div className="md:px-20 my-10 grid md:grid-cols-2 lg:grid-cols-4 gap-10 mx-6 lg:mx-0">
         {topics.map((topic) => (
           <Topic topic={topic} key={topic.id} />
         ))}

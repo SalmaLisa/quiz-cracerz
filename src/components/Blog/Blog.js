@@ -7,7 +7,7 @@ const Blog = () => {
       <div className="opacity-30">
         <img className="w-full" src={img} alt="" />
       </div>
-      <div className="absolute top-20 md:w-3/5 md:left-64 px-6">
+      <div className="absolute top-20 lg:w-3/5 lg:left-64 px-6 md:px-20 lg:px-0">
         <h1 className="text-2xl font-bold text-slate-900">
           1. What is the purpose of react router ?
         </h1>

@@ -7,12 +7,12 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const Banner = () => {
   return (
-    <div className="banner md:flex justify-between items-center pt-12">
+    <div className="banner md:flex justify-between items-center pt-12 md:pb-12 lg:pb-0 ">
       <div className=" md:ml-24 mx-6 md:mr-0">
         <h1 className="text-5xl font-bold mb-6">First Think , Then Act . </h1>
         <i className="text-blue-500 block">
           “Faith is more than getting a theological quiz right. Faith is to
-          know, to assent, <br /> to put your trust in, and to cherish what is
+          know, to assent, <br className='hidden lg:block' /> to put your trust in, and to cherish what is
           true.” ~ Kevin DeYoung
         </i>
         <Link to="/blog">
