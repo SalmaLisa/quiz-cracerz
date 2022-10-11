@@ -8,3 +8,9 @@ The next route is statistics . Here you can see our all quiz questions statistic
 
 The rest route is blog. Here you will find some of necessary questions those you might be eger to know.
 
+Extra information :
+library : react (https://reactjs.org/)
+Framework : tailwind Css (https://tailwindcss.com/)
+Animation : Lottie react (https://lottiereact.com/)
+icons : hero-icons (https://heroicons.com/)
+alerts : sweetalert2 react (https://sweetalert2.github.io/)
