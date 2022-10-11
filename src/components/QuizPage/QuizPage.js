@@ -13,7 +13,6 @@ const QuizPage = () => {
 
   const checkAnswer = (quizOptions, correctAnswer) => {
     if (quizOptions === correctAnswer) {
-      
       Swal.fire({
         icon: 'success',
         title: 'Wow ! Right Answer'
