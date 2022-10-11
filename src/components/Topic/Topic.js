@@ -7,7 +7,7 @@ const Topic = ({ topic }) => {
   const { id, logo, name, total } = topic;
   console.log(topic);
   return (
-    <div className="topic shadow-xl shadow-blue-200 rounded">
+    <div className="topic shadow-xl shadow-blue-200 rounded ">
       <img className="bg-blue-100  mb-3" src={logo} alt="" />
       <div className="pl-3">
         <h3 className="text-slate-900 font-semibold text-2xl">{name}</h3>

@@ -42,7 +42,7 @@ const Nav = () => {
         </div>
         <nav>
         <Bars3Icon onClick={()=>setOpen(!open)} className=" w-10 mt-1 ml-2 text-blue-800 md:hidden" />
-          <ul className={`md:flex mr-20 w-[100%] bg-white absolute right-[-80px] top-20 md:static pl-20 md:pl-0 shadow-lg shadow-blue-200 md:shadow-none ${open ?'open':'close'}`}>
+          <ul className={`md:flex mr-20 w-[100%] bg-white absolute right-[-80px] top-20 md:static pl-20 md:pl-0 shadow-lg shadow-blue-200 md:shadow-none z-10 ${open ?'open':'close'}`}>
             <li>
               <NavLink
                 className={({ isActive }) => (isActive ? "active" : undefined)}
