@@ -1,3 +1,5 @@
+live link : https://visionary-dasik-f9d9d9.netlify.app/
+
 Project name : Quiz Masters
 
 Gist of Project : It is a react routing Single Page Application containing 3 routes and a dynamic route.
