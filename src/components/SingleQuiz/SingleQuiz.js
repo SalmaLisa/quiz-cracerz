@@ -25,9 +25,9 @@ const SingleQuiz = ({ singleQuiz }) => {
         />
       </div>
       <div className="mt-3 ml-3">
-        {options.map((option) => (
+        {options.map((option,idx) => (
           <QuizOption
-            key={option}
+            key={idx}
             quizOptions={option}
             question={question}
             correctAnswer={correctAnswer}

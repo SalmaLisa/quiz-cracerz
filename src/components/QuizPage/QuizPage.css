@@ -1,3 +1,17 @@
-.counter-section{
+.quiz-container {
+  flex-basis: 70%;
+}
+.counter-section {
   height: 210px;
+  width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+  .quiz-page {
+    flex-direction: column-reverse;
+  }
+  .counter-section {
+    height: auto;
+    width: 100%;
+  }
 }

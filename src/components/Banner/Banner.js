@@ -8,7 +8,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 const Banner = () => {
   return (
     <div className="banner md:flex justify-between items-center pt-12">
-      <div className=" md:ml-16 mx-6 md:mr-0">
+      <div className=" md:ml-24 mx-6 md:mr-0">
         <h1 className="text-5xl font-bold mb-6">First Think , Then Act . </h1>
         <i className="text-blue-500 block">
           “Faith is more than getting a theological quiz right. Faith is to

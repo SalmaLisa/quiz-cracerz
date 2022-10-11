@@ -7,13 +7,13 @@ const Blog = () => {
       <div className="opacity-30">
         <img className="w-full" src={img} alt="" />
       </div>
-      <div className="absolute top-20 w-3/5 left-64">
+      <div className="absolute top-20 md:w-3/5 md:left-64 px-6">
         <h1 className="text-2xl font-bold text-slate-900">
           1. What is the purpose of react router ?
         </h1>
         <p>
           <span className="text-blue-800 border-b-4 border-blue-600 font-bold inline-block mb-2 mt-5 w-10">
-            Ans :{" "}
+            Ans :
           </span>
           <br /> React Router is a standard library for routing in React. It
           enables the navigation among views of various components in a React
@@ -25,7 +25,7 @@ const Blog = () => {
         </h1>
         <p>
           <span className="text-blue-800 border-b-4 border-blue-600 font-bold inline-block mb-2 mt-5 w-10">
-            Ans :{" "}
+            Ans :
           </span>
           <br /> The React Context API is a way for a React app to effectively
           produce global variables that can be passed around. This is the
@@ -37,7 +37,7 @@ const Blog = () => {
         <h1 className="text-2xl font-bold text-slate-900 mt-5">
           3. What is useRef hook ? What is it used for ?
         </h1>
-        <p>
+        <p className=" mb-16">
           <span className="text-blue-800 border-b-4 border-blue-600 font-bold inline-block mb-2 mt-5 w-10">
             Ans :{" "}
           </span>

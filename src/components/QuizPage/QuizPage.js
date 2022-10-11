@@ -40,13 +40,13 @@ const QuizPage = () => {
   };
   return (
     <AnswerCheckerContext.Provider value={checkAnswer}>
-      <div className="quiz-page grid grid-cols-3 w-4/5 mx-auto relative">
-        <div className="col-span-2">
+      <div className="quiz-page flex md:mx-20 relative">
+        <div className="quiz-container">
           {quiz.map((singleQuiz) => (
             <SingleQuiz singleQuiz={singleQuiz} key={singleQuiz.id} />
           ))}
         </div>
-        <div className="counter-section sticky top-0 mt-9 ml-20 p-8 border border-blue-200 rounded">
+        <div className="counter-section sticky top-0 md:mt-9 md:ml-9 p-8 border border-blue-200 rounded bg-white">
           <p className="text-green-700 text-xl font-semibold">
             Right Answer : {rightAnswers.length}
           </p>

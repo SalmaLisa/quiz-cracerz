@@ -1,0 +1,9 @@
+.chart{
+  margin-left: -30px;
+}
+@media only screen and (min-width:769px){
+  .chart{
+  width: 600px;
+  margin: auto;
+}
+}
