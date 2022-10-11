@@ -41,7 +41,7 @@ const Blog = () => {
           <span className="text-blue-800 border-b-4 border-blue-600 font-bold inline-block mb-2 mt-5 w-10">
             Ans :{" "}
           </span>
-          <br /> What is useRef used for? The useRef Hook allows you to persist
+          <br />The useRef Hook allows you to persist
           values between renders. It can be used to store a mutable value that
           does not cause a re-render when updated. It can be used to access a
           DOM element directly.useRef returns a mutable ref object whose
