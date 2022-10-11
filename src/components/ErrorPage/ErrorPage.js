@@ -15,10 +15,9 @@ const ErrorPage = () => {
         </i>
       </small>
       <Link
-        className="px-4 py-2 bg-fuchsia-800 text-white font-semibold rounded-lg block w-40 mx-auto mt-5"
+        className="px-4 py-2 bg-slate-700 text-white font-semibold rounded-lg block w-40 mx-auto mt-5"
         to="/home"
       >
-        {" "}
         Go to home page
       </Link>
     </div>
