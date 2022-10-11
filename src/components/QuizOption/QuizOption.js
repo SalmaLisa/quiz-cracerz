@@ -1,16 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AnswerCheckerContext } from "../QuizPage/QuizPage";
 import './QuizOption.css'
 
 const QuizOption = ({ quizOptions, question, correctAnswer }) => {
-  console.log(quizOptions,correctAnswer);
-  const checkAnswer = (quizOptions, correctAnswer) => {
-    if (quizOptions === correctAnswer) {
-      console.log('right')
-    }
-    else {
-      console.log('wrong')
-    }
-  }
+  const checkAnswer = useContext(AnswerCheckerContext);
   return (
     <div className="flex">
       <input 
