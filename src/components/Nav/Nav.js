@@ -36,10 +36,10 @@ const Nav = () => {
         </div>
       </div>
       <div className="navbar flex items-center justify-between py-4 px-5 md:px-0 relative">
-        <div className="logo-container flex items-center md:ml-20">
+        <Link to='/home' className="logo-container flex items-center md:ml-20">
           <Lottie className="logo" animationData={logo} />
           <h2 className="logo-title text-2xl md:text-4xl font-bold ">uiz Masters</h2>
-        </div>
+        </Link>
         <nav>
         <Bars3Icon onClick={()=>setOpen(!open)} className=" w-10 mt-1 ml-2 text-blue-800 md:hidden" />
           <ul className={`md:flex mr-20 w-[100%] bg-white absolute right-[-80px] top-20 md:static pl-20 md:pl-0 shadow-lg shadow-blue-200 md:shadow-none z-10 ${open ?'open':'close'}`}>
