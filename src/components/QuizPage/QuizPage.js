@@ -13,28 +13,26 @@ const QuizPage = () => {
 
   const checkAnswer = (quizOptions, correctAnswer) => {
     if (quizOptions === correctAnswer) {
-     
+      Swal.fire({
+        icon: "success",
+        title: "Wow ! Right Answer",
+      });
       const alreadyAnswered = rightAnswers.find(
         (rightAnswer) => rightAnswer === quizOptions
       );
       if (!alreadyAnswered) {
-        Swal.fire({
-          icon: "success",
-          title: "Wow ! Right Answer",
-        });
         const rightAns = [...rightAnswers, quizOptions];
         setRightAnswers(rightAns);
       }
     } else {
-     
+      Swal.fire({
+        icon: "error",
+        title: "Oops...Wrong Answer!",
+      });
       const alreadyAnswered = wrongAnswers.find(
         (rightAnswer) => rightAnswer === quizOptions
       );
       if (!alreadyAnswered) {
-        Swal.fire({
-          icon: "error",
-          title: "Oops...Wrong Answer!",
-        });
         const wrongAns = [...wrongAnswers, quizOptions];
         setWrongAnswers(wrongAns);
       }
@@ -42,7 +40,10 @@ const QuizPage = () => {
   };
   return (
     <AnswerCheckerContext.Provider value={checkAnswer}>
-      <h1 className="text-center font-bold text-4xl my-12 text-slate-700">Questions Regarding <span className="text-blue-800 italic">{quizzes.data.name}</span></h1>
+      <h1 className="text-center font-bold text-4xl my-12 text-slate-700">
+        Questions Regarding{" "}
+        <span className="text-blue-800 italic">{quizzes.data.name}</span>
+      </h1>
       <div className="quiz-page flex md:mx-20 relative">
         <div className="quiz-container">
           {quiz.map((singleQuiz) => (
