@@ -16,7 +16,7 @@ const SingleQuiz = ({ singleQuiz }) => {
     });
   };
   return (
-    <li className="list-decimal border border-blue-200 mt-8 p-5 rounded relative text-2xl text-slate-900 font-semibold ">
+    <li className="list-decimal border border-blue-200 my-8 p-5 rounded relative text-2xl text-slate-900 font-semibold ">
       {newQuestion}
       <div className="cursor-pointer absolute right-0 top-0">
         <EyeIcon
