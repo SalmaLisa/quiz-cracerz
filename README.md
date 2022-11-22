@@ -1,10 +1,10 @@
 
-## Project name : Quiz Masters
+# Project name : Quiz Masters
 
-## live link : https://visionary-dasik-f9d9d9.netlify.app/
+# live link : https://visionary-dasik-f9d9d9.netlify.app/
 
 
-# Gist of Project : 
+## Gist of Project : 
 
 * It is a react routing Single Page Application containing 3 routes and a dynamic route.
 
@@ -16,7 +16,7 @@
 
 * The rest route is blog. Here you will find some of necessary questions those you might be eger to know.
 
-# Extra information :
+## Extra information :
 
 * Technology : React JS 
 * Framework : tailwind Css 
